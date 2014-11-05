@@ -1,0 +1,39 @@
+%% This document gives an example on how to use the gucmasterthesis
+%% LaTeX document class.
+
+%% Use short name MMT MIS or CIMET, and language,  english or norwegian
+\documentclass[MACS,english]{gucthesis}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}     % For utf8 encoded .tex files allows norwegian characters in the files. This can be dangerous if you change to a differnt editor.
+\usepackage[pdftex]{graphicx, hyperref}   % For cross references in pdf
+\usepackage{color}              % For colouring text   
+\usepackage{url}
+
+\begin{document}
+
+\input{MastersThesisData} % this is the file which contains all the details about your thesis
+\makefrontpages % make the frontpages
+\input{MastersIntro}
+
+
+\tableofcontents
+
+% Comment with a percent to remove figures or tables:
+\listoffigures
+\listoftables
+
+
+\include{introduction} % includes latex files from the same directory
+\include{packages} % could be called Methodology or methods or anyfile name 
+\include{structure} % could be results
+
+
+
+\bibliographystyle{gucthesis}
+\bibliography{MastersExample}
+
+\appendix
+\include{appendix}
+
+\end{document}

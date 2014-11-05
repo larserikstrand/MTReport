@@ -1,0 +1,284 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@InProceedings{anagnostopoulos2005prediction,
+  Title                    = {Prediction intelligence in context-aware applications},
+  Author                   = {Anagnostopoulos, Christos and Mpougiouris, Panagiotis and Hadjiefthymiades, Stathes},
+  Booktitle                = {Proceedings of the 6th international conference on Mobile data management},
+  Year                     = {2005},
+  Organization             = {ACM},
+  Pages                    = {137--141},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\Prediction_Intelligence_in_Context-Aware_Applications.pdf:PDF},
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@Article{Askvall1985,
+  Title                    = {Computer supported reading vs. reading text on paper: A comparison of two reading situations},
+  Author                   = {S. Askvall},
+  Journal                  = {International Journal on Man-Machine Studies},
+  Year                     = {1985},
+  Number                   = {22},
+  Pages                    = {425-439},
+  Volume                   = {4}
+}
+
+@Book{Card1983,
+  Title                    = {The psychology of human-computer interaction},
+  Author                   = {S. K. Card and T. P. Moran and A. Newell},
+  Publisher                = {Erlbaum},
+  Year                     = {1983}
+}
+
+@Article{chalmers2004historical,
+  Title                    = {A historical view of context},
+  Author                   = {Chalmers, Matthew},
+  Journal                  = {Computer Supported Cooperative Work (CSCW)},
+  Year                     = {2004},
+  Number                   = {3-4},
+  Pages                    = {223--247},
+  Volume                   = {13},
+
+  Owner                    = {lars.strand},
+  Publisher                = {Springer},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{ciaramella2010using,
+  Title                    = {Using context history to personalize a resource recommender via a genetic algorithm},
+  Author                   = {Ciaramella, Alessandro and Cimino, Mario GCA and Lazzerini, Beatrice and Marcelloni, Francesco},
+  Booktitle                = {Intelligent Systems Design and Applications (ISDA), 2010 10th International Conference on},
+  Year                     = {2010},
+  Organization             = {IEEE},
+  Pages                    = {965--970},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{conley2007towel,
+  Title                    = {Towel: Towards an Intelligent To-Do List.},
+  Author                   = {Conley, Kenneth and Carpenter, James},
+  Booktitle                = {AAAI Spring Symposium: Interaction Challenges for Intelligent Assistants},
+  Year                     = {2007},
+  Pages                    = {26--32},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\Towel_Towards_an_Intelligent_To-Do_List.pdf:PDF},
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@PhdThesis{dey2000providing,
+  Title                    = {Providing architectural support for building context-aware applications},
+  Author                   = {Dey, Anind K},
+  School                   = {Georgia Institute of Technology},
+  Year                     = {2000},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@Article{driver2008application,
+  Title                    = {An application framework for mobile, context-aware trails},
+  Author                   = {Driver, Cormac and Clarke, Siobhan},
+  Journal                  = {Pervasive and Mobile Computing},
+  Year                     = {2008},
+  Number                   = {5},
+  Pages                    = {719--736},
+  Volume                   = {4},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\An_Application_Framework_for_Mobile_Context-aware_Trails.pdf:PDF},
+  Owner                    = {lars.strand},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.10.21}
+}
+
+@Misc{HiG:Website,
+  Title                    = {HiG Website},
+
+  Author                   = {HiG},
+  HowPublished             = {\url{http://www.hig.no}},
+  Note                     = {(Visited Jan. 2012)},
+  Year                     = {2010}
+}
+
+@Article{hong2009context,
+  Title                    = {Context-aware system for proactive personalized service based on context history},
+  Author                   = {Hong, Jongyi and Suh, Eui-Ho and Kim, Junyoung and Kim, SuYeon},
+  Journal                  = {Expert Systems with Applications},
+  Year                     = {2009},
+  Number                   = {4},
+  Pages                    = {7448--7457},
+  Volume                   = {36},
+
+  Owner                    = {lars.strand},
+  Publisher                = {Elsevier},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{Lancaster1985,
+  Title                    = {Electronic publication and its impact on the presentation of information},
+  Author                   = {F. W. Lancaster and A. Warner},
+  Booktitle                = {The technology of text: Principles for structuring, designing, and displaying text},
+  Year                     = {1985},
+  Editor                   = {D. H. Jonassen},
+  Pages                    = {292-309},
+  Publisher                = {Educational Technology Publications}
+}
+
+@Book{lawler1985traveling,
+  Title                    = {The traveling salesman problem: a guided tour of combinatorial optimization},
+  Author                   = {Lawler, Eugene L and Lenstra, Jan Karel and Kan, AHG Rinnooy and Shmoys, David B},
+  Publisher                = {Wiley Chichester},
+  Year                     = {1985},
+  Volume                   = {3},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{liu2011survey,
+  Title                    = {A survey on context awareness},
+  Author                   = {Liu, Wei and Li, Xue and Huang, Daoli},
+  Booktitle                = {Computer Science and Service System (CSSS), 2011 International Conference on},
+  Year                     = {2011},
+  Organization             = {IEEE},
+  Pages                    = {144--147},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@Article{mayrhofer2005context,
+  Title                    = {Context prediction based on context histories: Expected benefits, issues and current state-of-the-art},
+  Author                   = {Mayrhofer, Rene},
+  Journal                  = {COGNITIVE SCIENCE RESEARCH PAPER-UNIVERSITY OF SUSSEX CSRP},
+  Year                     = {2005},
+  Pages                    = {31},
+  Volume                   = {577},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\Context_Prediction_Based_on_Context_Histories_Expected_Benefits_Issues_and_Current_State-of-the-Art.pdf:PDF},
+  Owner                    = {lars.strand},
+  Publisher                = {UNIVERSITY OF SUSSEX},
+  Timestamp                = {2014.10.21}
+}
+
+@Misc{Meldon1997,
+  Title                    = {Reading from the web},
+
+  Author                   = {W. Meldon},
+  HowPublished             = {\url{http://www.mit.edu/compsci/humanfactors/report9734.html}},
+  Note                     = {(Visited Nov. 2010)},
+  Year                     = {1997}
+}
+
+@Article{myers2007intelligent,
+  Title                    = {An intelligent personal assistant for task and time management},
+  Author                   = {Myers, Karen and Berry, Pauline and Blythe, Jim and Conley, Ken and Gervasio, Melinda and McGuinness, Deborah L and Morley, David and Pfeffer, Avi and Pollack, Martha and Tambe, Milind},
+  Journal                  = {AI Magazine},
+  Year                     = {2007},
+  Number                   = {2},
+  Pages                    = {47},
+  Volume                   = {28},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\An_Intelligent_Personal_Assistant_for_Task_and_Time_Management.pdf:PDF},
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{myers2005cognitive,
+  Title                    = {A cognitive framework for delegation to an assistive user agent},
+  Author                   = {Myers, Karen L and Yorke-Smith, Neil},
+  Booktitle                = {Proc. of AAAI 2005 Fall Symposium on Mixed-Initiative Problem-Solving Assistants},
+  Year                     = {2005},
+  Pages                    = {94--99},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@InProceedings{norton2010towards,
+  Title                    = {Towards a context-aware personal scheduler},
+  Author                   = {Norton, Nathan and Lim, Samsung},
+  Booktitle                = {International Conference of Impact on Ubiquitous IT Co-Design to Industry},
+  Year                     = {2010},
+  Pages                    = {21--23},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\Towards_a_Context-Aware_Personal_Scheduler.pdf:PDF},
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.10.21}
+}
+
+@Article{refanidis2011deployment,
+  Title                    = {Deployment and evaluation of Selfplanner, an automated individual task management system},
+  Author                   = {Refanidis, Ioannis and Alexiadis, Anastasios},
+  Journal                  = {Computational Intelligence},
+  Year                     = {2011},
+  Number                   = {1},
+  Pages                    = {41--59},
+  Volume                   = {27},
+
+  Owner                    = {lars.strand},
+  Publisher                = {Wiley Online Library},
+  Timestamp                = {2014.10.21}
+}
+
+@Article{refanidis2010constraint,
+  Title                    = {A constraint-based approach to scheduling an individual's activities},
+  Author                   = {Refanidis, Ioannis and Yorke-Smith, Neil},
+  Journal                  = {ACM Transactions on Intelligent Systems and Technology (TIST)},
+  Year                     = {2010},
+  Number                   = {2},
+  Pages                    = {12},
+  Volume                   = {1},
+
+  File                     = {:D\:\\Documents\\12HMACS\\Master\\Related_Litterature\\A_Constraint-Based_Approach_to_Scheduling_an_Individuals_Activities.pdf:PDF},
+  Owner                    = {lars.strand},
+  Publisher                = {ACM},
+  Timestamp                = {2014.10.21}
+}
+
+@Misc{BallBouncer,
+  Title                    = {Ballbouncer},
+
+  Author                   = {Jana Sieber},
+  HowPublished             = {\url{http://www.ballbouncer.org}},
+  Month                    = {March},
+  Year                     = {2009},
+
+  Owner                    = {simonm},
+  Timestamp                = {2010.05.18}
+}
+
+@Misc{googlecalendar,
+  Title                    = {Google Calendar},
+  HowPublished             = {\url{https://www.google.com/calendar}},
+
+  Owner                    = {Google},
+  Timestamp                = {2014.11.03}
+}
+
+@Misc{GUCMaster,
+  Title                    = {Directions for the Master's Thesis at the {D}epartment of {C}omputer {S}cience and {M}edia {T}echnology, {G}j\o{}vik {U}niversity {C}ollege},
+  HowPublished             = {http://www.hig.no/imt/},
+  Note                     = {(Visited Mar. 2012)}
+}
+
+@Misc{todoist,
+  Title                    = {Todoist},
+  HowPublished             = {\url{https://en.todoist.com/}},
+
+  Owner                    = {Doist},
+  Timestamp                = {2014.10.21}
+}
+
+@Misc{trello,
+  Title                    = {Trello},
+  HowPublished             = {\url{https://trello.com/}},
+
+  Owner                    = {Fog Creek Software},
+  Timestamp                = {2014.10.21}
+}
+

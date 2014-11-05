@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{GUCMaster}
+Directions for the master's thesis at the {D}epartment of {C}omputer {S}cience
+  and {M}edia {T}echnology, {G}j\o{}vik {U}niversity {C}ollege.
+\newblock http://www.hig.no/imt/.
+\newblock (Visited Mar. 2012).
+
+\bibitem{Askvall1985}
+Askvall, S.
+\newblock 1985.
+\newblock Computer supported reading vs. reading text on paper: A comparison of
+  two reading situations.
+\newblock {\em International Journal on Man-Machine Studies}, 4(22), 425--439.
+
+\bibitem{Card1983}
+Card, S.~K., Moran, T.~P., \& Newell, A.
+\newblock 1983.
+\newblock {\em The psychology of human-computer interaction}.
+\newblock Erlbaum.
+
+\bibitem{Lancaster1985}
+Lancaster, F.~W. \& Warner, A.
+\newblock 1985.
+\newblock Electronic publication and its impact on the presentation of
+  information.
+\newblock In {\em The technology of text: Principles for structuring,
+  designing, and displaying text}, Jonassen, D.~H., ed,  292--309. Educational
+  Technology Publications.
+
+\bibitem{Meldon1997}
+Meldon, W.
+\newblock 1997.
+\newblock Reading from the web.
+\newblock \url{http://www.mit.edu/compsci/humanfactors/report9734.html}.
+\newblock (Visited Nov. 2010).
+
+\bibitem{HiG:Website}
+HiG.
+\newblock 2010.
+\newblock Hig website.
+\newblock \url{http://www.hig.no}.
+\newblock (Visited Jan. 2012).
+
+\end{thebibliography}
