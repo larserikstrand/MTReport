@@ -1,19 +1,42 @@
 \chapter{Related Work}
 \label{chap:relatedwork}
 
-\section{Context}
-\begin{quote}
-``Context is any information that can be used to characterize the situ- ation of an entity.
-An entity is a person, place, or object that is considered relevant to the interaction
-between a user and an application, including the user and application themselves''
-\end{quote}
-
 \section{Context awareness}
 
-\section{Intelligent task and time management systems}
-
-\subsection{Calendar systems}
-
-\subsection{Task management systems}
+Context awareness is a large area of research. This has led to many proposed definitions of context and context awareness \cite{liu2011survey}. Context can refer to many different things, in fact, everything that happens in everyday life, happens in a context. Because of this, it is important to provide a specific definition of context when researching the area in order to avoid confusion. This thesis will use a widely used and commonly accepted definition of context proposed by Dey \cite{dey2000providing}, stating that:
+\begin{quote}
+``Context is any information that can be used to characterize the situ-
+ation of an entity. An entity is a person, place, or object that is considered
+relevant to the interaction between a user and an application, including the
+user and application themselves.''
+\end{quote}
+Following this, a context-aware application is therefore an application that gathers contexts, interprets them, and adapts its behavior accordingly during runtime to adjust to the users situations and needs.
 
 \section{Context history}
+
+Context-history refers to persistent storing of contextual information, in order to use this information for future purposes. The limitation of current to-do list applications is that they do not propose the usage of context-based history, and only considers current context. Utlilizing context-history usually involves reqognizing patterns in the stored context information. Studies involving context histories is also limited in the sence that most of them focus on building histories rather than utilizing them \cite{chalmers2004historical}.
+
+A study looking into the utilization of context-histories has been presented in \cite{hong2009context}. This study tries to predict the preferences of the user by utilizing context-history. They implement a context management layer into their system where an inference agent infers the high level contexts from the raw, sensed contexts. These high level contexts are then stored as context-history represented by the OWL ontology language.
+
+One way to extract usefull information through context histories would be deducting user habits from them. Ciaramella did such a study \cite{ciaramella2010using}. The study proposed a resource recommender that adapts to the habits of a specific user. This adaption was based on genetic algorithms (GA's). By tracking user behavior on a mobile device, they collected the context-history and utilized fuzzy linguistic variables to handle vagueness in the collected data. The study showed that adding context-histories and GA's to the calculation of recommended resources, improved both responsiveness and modeling capabilities of the recommender.
+
+\section{Making predictions based on context}
+
+Mayrhofer et al. discuss some issues regarding context-prediction \cite{mayrhofer2005context}. When trying to predict a user context in order to proac1tively perform a task for the user, it is important that the predictions are accurate. This is generally a significant problem in the area of context prediction. This thesis is not focused on proactively performing tasks for the users. It is focused on providing task suggestions based on these predictions, thereby making the problem slightly less significant. However, the user experience will be related to the accuracy of these suggestions, meaning that it will still be of some importance.
+
+When making predictions based on contexts, how the prediction is performed is equally important as that which is predicted. A study on how to proactively determine spatial data about the user is done in \cite{anagnostopoulos2005prediction}. Here, a Predictive Context Object (PCO), modelled in UML, is proposed for modelling predictive data. A prediction algorithm is also proposed, consisting of concrete mathematical formulae.
+
+\section{Context abstraction and modeling}
+
+\section{Intelligent task and time management systems}
+The SELF-PLANNER \cite{refanidis2011deployment} proposed an intelligent Web-based calendar system where a users schedule can be created automatically by the system \cite{refanidis2010constraint}. Research in intelligently scheduling a user's activities also touches the field of Artificial Intelligence (AI). The study investigates different types of user activities, such as activities that are dependent upon each other, interuptable activities, location-dependent activities, and activities of variable length. It also studies how these activities can relate to each other in order to create a model of the activities to be used in the scheduling algorithm. The work was based on the Squeaky Wheel Optimization framework, and shows that letting an intelligent system schedule user activities can generate effective and qualitative plans \cite{refanidis2010constraint}.
+
+Norton et al. proposed a information management system that can autonomously rearrange a task list depending on the current user context \cite{norton2010towards}. The system is similiar to a to-do list application. The paper studies relationships between tasks based on their priorities, deadlines, and locations in order to autonomously rearrange tasks with respect to time optimization. However, the system does not suggest using context history for this purpose. The paper also focus more on a smart way to recieve location data in order to save battery power. Trending (history) is mentioned, but this is purely for location and to further optimize the battery life. For ordering the tasks the system normalizes the relevant factors and use a multi-dimensional Euclidean space to determine the ordering.
+
+Research presenting automated task assistants have also been proposed. Towel \cite{conley2007towel} propose a intelligent to-do list system, allowing for simple user task to be automatically performed by a system agent. The users to-dos are integrated with the execution-agent, called Project Execution Assistant (PExA) \cite{myers2005cognitive}. The tasks that the agent can perform need to be rather simple tasks that the agen can interpret and fully comprehend in order to do the tasks correctly. Such tasks include sending emails, looking for available hotels and arranging meetings. By relieving the user of these trivial tasks, the user can then focus on more important task requiring human problem solving skills.
+
+A similar study was presented in \cite{myers2007intelligent}. This study proposed a system architecture for task and time management systems. This system's purpose is also to relieve a user from routine tasks, so that the user can focus on more complex tasks, thus increasing productivity among knowledge workers. The utilization of PExA are more thoroughly described in this study. A possible shortcoming in the study is that the agent performing the user tasks, need to be given specific instructions on a high level of detail by the user. This means that a method for infering data about a user task is not proposed.
+
+Driver and Clarke proposed something that they called context-aware trails \cite{driver2008application}, which is a list of scheduled activities. Activity scheduling based on context can help users in many different areas, such as a hospital worker needing to do patient rounds and administrative tasks. Generating these trails has some problem areas that are much like the Traveling Salesman Problem (TSP) \cite{lawler1985traveling}. The mechanism for generating the trails is based on context-based activity set reduction, where the activity set is the entire list of activities the user could do while using the application.
+
+The reviewed proposals are relevant for task and time management systems. However, none of these systems have looked into the use of context-histories for their purposes.

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{googlecalendar}
 Google calendar.
@@ -11,5 +11,117 @@ Trello.
 \bibitem{todoist}
 Todoist.
 \newblock \url{https://en.todoist.com/}.
+
+\bibitem{liu2011survey}
+Liu, W., Li, X., \& Huang, D.
+\newblock 2011.
+\newblock A survey on context awareness.
+\newblock In {\em Computer Science and Service System (CSSS), 2011
+  International Conference on},  144--147. IEEE.
+
+\bibitem{dey2000providing}
+Dey, A.~K.
+\newblock {\em Providing architectural support for building context-aware
+  applications}.
+\newblock PhD thesis, Georgia Institute of Technology, 2000.
+
+\bibitem{chalmers2004historical}
+Chalmers, M.
+\newblock 2004.
+\newblock A historical view of context.
+\newblock {\em Computer Supported Cooperative Work (CSCW)}, 13(3-4), 223--247.
+
+\bibitem{hong2009context}
+Hong, J., Suh, E.-H., Kim, J., \& Kim, S.
+\newblock 2009.
+\newblock Context-aware system for proactive personalized service based on
+  context history.
+\newblock {\em Expert Systems with Applications}, 36(4), 7448--7457.
+
+\bibitem{ciaramella2010using}
+Ciaramella, A., Cimino, M.~G., Lazzerini, B., \& Marcelloni, F.
+\newblock 2010.
+\newblock Using context history to personalize a resource recommender via a
+  genetic algorithm.
+\newblock In {\em Intelligent Systems Design and Applications (ISDA), 2010 10th
+  International Conference on},  965--970. IEEE.
+
+\bibitem{mayrhofer2005context}
+Mayrhofer, R.
+\newblock 2005.
+\newblock Context prediction based on context histories: Expected benefits,
+  issues and current state-of-the-art.
+\newblock {\em COGNITIVE SCIENCE RESEARCH PAPER-UNIVERSITY OF SUSSEX CSRP},
+  577, 31.
+
+\bibitem{anagnostopoulos2005prediction}
+Anagnostopoulos, C., Mpougiouris, P., \& Hadjiefthymiades, S.
+\newblock 2005.
+\newblock Prediction intelligence in context-aware applications.
+\newblock In {\em Proceedings of the 6th international conference on Mobile
+  data management},  137--141. ACM.
+
+\bibitem{refanidis2011deployment}
+Refanidis, I. \& Alexiadis, A.
+\newblock 2011.
+\newblock Deployment and evaluation of selfplanner, an automated individual
+  task management system.
+\newblock {\em Computational Intelligence}, 27(1), 41--59.
+
+\bibitem{refanidis2010constraint}
+Refanidis, I. \& Yorke-Smith, N.
+\newblock 2010.
+\newblock A constraint-based approach to scheduling an individual's activities.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology (TIST)},
+  1(2), 12.
+
+\bibitem{norton2010towards}
+Norton, N. \& Lim, S.
+\newblock 2010.
+\newblock Towards a context-aware personal scheduler.
+\newblock In {\em International Conference of Impact on Ubiquitous IT Co-Design
+  to Industry},  21--23.
+
+\bibitem{conley2007towel}
+Conley, K. \& Carpenter, J.
+\newblock 2007.
+\newblock Towel: Towards an intelligent to-do list.
+\newblock In {\em AAAI Spring Symposium: Interaction Challenges for Intelligent
+  Assistants},  26--32.
+
+\bibitem{myers2005cognitive}
+Myers, K.~L. \& Yorke-Smith, N.
+\newblock 2005.
+\newblock A cognitive framework for delegation to an assistive user agent.
+\newblock In {\em Proc. of AAAI 2005 Fall Symposium on Mixed-Initiative
+  Problem-Solving Assistants},  94--99.
+
+\bibitem{myers2007intelligent}
+Myers, K., Berry, P., Blythe, J., Conley, K., Gervasio, M., McGuinness, D.~L.,
+  Morley, D., Pfeffer, A., Pollack, M., \& Tambe, M.
+\newblock 2007.
+\newblock An intelligent personal assistant for task and time management.
+\newblock {\em AI Magazine}, 28(2), 47.
+
+\bibitem{driver2008application}
+Driver, C. \& Clarke, S.
+\newblock 2008.
+\newblock An application framework for mobile, context-aware trails.
+\newblock {\em Pervasive and Mobile Computing}, 4(5), 719--736.
+
+\bibitem{lawler1985traveling}
+Lawler, E.~L., Lenstra, J.~K., Kan, A.~R., \& Shmoys, D.~B.
+\newblock 1985.
+\newblock {\em The traveling salesman problem: a guided tour of combinatorial
+  optimization}, volume~3.
+\newblock Wiley Chichester.
+
+\bibitem{netflix}
+Netflix.
+\newblock \url{https://www.netflix.com}.
+
+\bibitem{amazon}
+Amazon.
+\newblock \url{https://www.amazon.com}.
 
 \end{thebibliography}

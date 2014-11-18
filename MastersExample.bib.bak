@@ -252,6 +252,14 @@
   Timestamp                = {2010.05.18}
 }
 
+@Misc{amazon,
+  Title                    = {Amazon},
+  HowPublished             = {\url{https://www.amazon.com}},
+
+  Owner                    = {Amazon.com, Inc.},
+  Timestamp                = {2014.11.10}
+}
+
 @Misc{googlecalendar,
   Title                    = {Google Calendar},
   HowPublished             = {\url{https://www.google.com/calendar}},
@@ -264,6 +272,14 @@
   Title                    = {Directions for the Master's Thesis at the {D}epartment of {C}omputer {S}cience and {M}edia {T}echnology, {G}j\o{}vik {U}niversity {C}ollege},
   HowPublished             = {http://www.hig.no/imt/},
   Note                     = {(Visited Mar. 2012)}
+}
+
+@Misc{netflix,
+  Title                    = {Netflix},
+  HowPublished             = {\url{https://www.netflix.com}},
+
+  Owner                    = {Netflix, Inc.},
+  Timestamp                = {2014.11.10}
 }
 
 @Misc{todoist,

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  3 NOV 2014 20:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  17 NOV 2014 11:19
 entering extended mode
 **MTReport.tex
 (D:\Skole\Master\Report\MTReport\MTReport.tex
@@ -582,34 +582,56 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
+(D:\Programfiler\MiKTeX\tex\latex\listings\listings.sty
+\lst@mode=\count108
+\lst@gtempboxa=\box26
+\lst@token=\toks18
+\lst@length=\count109
+\lst@currlwidth=\dimen118
+\lst@column=\count110
+\lst@pos=\count111
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count112
+\lst@lineno=\count113
+\lst@maxwidth=\dimen121
+
+(D:\Programfiler\MiKTeX\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count114
+\lst@skipnumbers=\count115
+\lst@framebox=\box27
+)
+(D:\Programfiler\MiKTeX\tex\latex\listings\listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
 (D:\Skole\Master\Report\MTReport\MTReport.aux
 (D:\Skole\Master\Report\MTReport\TeXfiles/introduction.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/results.aux)
-(D:\Skole\Master\Report\MTReport\TeXfiles/analysis.aux)
+(D:\Skole\Master\Report\MTReport\TeXfiles/discussion.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.aux)
-(D:\Skole\Master\Report\MTReport\TeXfiles/appendix.aux
+(D:\Skole\Master\Report\MTReport\TeXfiles/appendix.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Try loading font information for T1+bch on input line 14.
 
-LaTeX Warning: Label `' multiply defined.
-
-))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Try loading font information for T1+bch on input line 13.
- (D:\Programfiler\MiKTeX\tex\latex\psnfss\t1bch.fd
+(D:\Programfiler\MiKTeX\tex\latex\psnfss\t1bch.fd
 File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 )
 *geometry* driver: auto-detecting
@@ -646,109 +668,110 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 13.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 13.
+(Font)              `operators' in the math version `normal' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/bch/m/n on input line 13.
+(Font)                  OT1/cmr/m/n --> T1/bch/m/n on input line 14.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 13.
+(Font)              `operators' in the math version `bold' on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/bch/m/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> T1/bch/m/n on input line 14.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/bch/m/n --> T1/bch/b/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 13.
+(Font)                  T1/bch/m/n --> T1/bch/b/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/bch/b/n on input line 13.
+(Font)                  OT1/cmr/bx/n --> T1/bch/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/bch/b/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 13.
+(Font)                  OT1/cmr/bx/n --> T1/bch/b/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 13.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 13.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/bch/m/it on input line 13.
+(Font)                  OT1/cmr/m/it --> T1/bch/m/it on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/bch/m/it on input line 13.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 13.
+(Font)                  OT1/cmr/bx/it --> T1/bch/m/it on input line 14.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 13.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 13.
+(Font)                  T1/cmss/m/n --> T1/cmss/b/n on input line 14.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/bch/m/it --> T1/bch/b/it on input line 13.
+(Font)                  T1/bch/m/it --> T1/bch/b/it on input line 14.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 13.
+(lastpage)             ! on input line 14.
 (D:\Programfiler\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen118
-\scratchbox=\box26
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen119
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count116
+\scratchdimen=\dimen122
+\scratchbox=\box28
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen123
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks20
 )
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 13.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 14.
  (D:\Programfiler\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (D:\Programfiler\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count114
+\c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 13.
-LaTeX Info: Redefining \pageref on input line 13.
-LaTeX Info: Redefining \nameref on input line 13.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (D:\Skole\Master\Report\MTReport\MTReport.out)
 (D:\Skole\Master\Report\MTReport\MTReport.out)
 \@outlinefile=\write3
+\c@lstlisting=\count123
 
 (D:\Skole\Master\Report\MTReport\TeXfiles/MastersThesisData.tex)
-LaTeX Font Info:    Try loading font information for U+eur on input line 16.
+LaTeX Font Info:    Try loading font information for U+eur on input line 17.
 
 (D:\Programfiler\MiKTeX\tex\latex\amsfonts\ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
-LaTeX Font Info:    Try loading font information for U+euf on input line 16.
+(Font)              <5> on input line 17.
+LaTeX Font Info:    Try loading font information for U+euf on input line 17.
 
 (D:\Programfiler\MiKTeX\tex\latex\amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-LaTeX Font Info:    Try loading font information for U+eus on input line 16.
+LaTeX Font Info:    Try loading font information for U+eus on input line 17.
 
 (D:\Programfiler\MiKTeX\tex\latex\amsfonts\ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
-LaTeX Font Info:    Try loading font information for U+euex on input line 16.
+LaTeX Font Info:    Try loading font information for U+euex on input line 17.
 
 (D:\Programfiler\MiKTeX\tex\latex\amsfonts\ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-<higlogo.png, id=115, 301.125pt x 301.125pt>
+<higlogo.png, id=175, 301.125pt x 301.125pt>
 File: higlogo.png Graphic file (type png)
  <use higlogo.png>
-Package pdftex.def Info: higlogo.png used on input line 16.
+Package pdftex.def Info: higlogo.png used on input line 17.
 (pdftex.def)             Requested size: 70.0pt x 69.99704pt.
  [1
 
@@ -781,19 +804,19 @@ l.9 \chapter
 
 ]) [2
 
-] (D:\Skole\Master\Report\MTReport\MTReport.toc)
-\tf@toc=\write4
-
+] (D:\Skole\Master\Report\MTReport\MTReport.toc
 [3
 
-] (D:\Skole\Master\Report\MTReport\MTReport.lof)
+])
+\tf@toc=\write4
+ [4] (D:\Skole\Master\Report\MTReport\MTReport.lof)
 \tf@lof=\write5
- [4
+ [5
 
 ]
 (D:\Skole\Master\Report\MTReport\MTReport.lot)
 \tf@lot=\write6
- [5
+ [6
 
 ]
 (D:\Skole\Master\Report\MTReport\TeXfiles/introduction.tex
@@ -803,36 +826,114 @@ Chapter 1.
 
 ]) [2] (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.tex
 Chapter 2.
-) [3
+[3
 
 
 
-] (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.tex
+] [4]) [5] (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.tex
 Chapter 3.
-[4
+[6
 
 
 
-] <figures/ConceptualDiagram.png, id=215, 802.49812pt x 270.25969pt>
+] <figures/ConceptualDiagram.png, id=372, 802.49812pt x 270.25969pt>
 File: figures/ConceptualDiagram.png Graphic file (type png)
 
 <use figures/ConceptualDiagram.png>
-Package pdftex.def Info: figures/ConceptualDiagram.png used on input line 33.
+Package pdftex.def Info: figures/ConceptualDiagram.png used on input line 41.
 (pdftex.def)             Requested size: 418.25368pt x 140.8575pt.
- [5 <D:/Skole/Master/Report/MTReport/figures/ConceptualDiagram.png>]) [6]
-(D:\Skole\Master\Report\MTReport\TeXfiles/results.tex
+
+<figures/MainScreenStarted.png, id=375, 1084.05pt x 1927.2pt>
+File: figures/MainScreenStarted.png Graphic file (type png)
+
+<use figures/MainScreenStarted.png>
+Package pdftex.def Info: figures/MainScreenStarted.png used on input line 57.
+(pdftex.def)             Requested size: 209.12683pt x 371.75908pt.
+ [7] [8 <D:/Skole/Master/Report/MTReport/figures/ConceptualDiagram.png>] [9 <D:
+/Skole/Master/Report/MTReport/figures/MainScreenStarted.png>]
+<figures/TaskRepresentation.png, id=390, 649.2255pt x 116.8365pt>
+File: figures/TaskRepresentation.png Graphic file (type png)
+
+<use figures/TaskRepresentation.png>
+Package pdftex.def Info: figures/TaskRepresentation.png used on input line 88.
+(pdftex.def)             Requested size: 209.12683pt x 37.63446pt.
+
+<figures/DatabaseModel.png, id=393, 684.30656pt x 494.59781pt>
+File: figures/DatabaseModel.png Graphic file (type png)
+
+<use figures/DatabaseModel.png>
+Package pdftex.def Info: figures/DatabaseModel.png used on input line 100.
+(pdftex.def)             Requested size: 418.25368pt x 302.30797pt.
+
+<figures/DatabaseModel_external.png, id=394, 435.12563pt x 494.59781pt>
+File: figures/DatabaseModel_external.png Graphic file (type png)
+
+<use figures/DatabaseModel_external.png>
+Package pdftex.def Info: figures/DatabaseModel_external.png used on input line 
+107.
+(pdftex.def)             Requested size: 209.12683pt x 237.71367pt.
+ [10 <D:/Skole/Master/Report/MTReport/figures/TaskRepresentation.png>] [11 <D:/
+Skole/Master/Report/MTReport/figures/DatabaseModel.png>] [12 <D:/Skole/Master/R
+eport/MTReport/figures/DatabaseModel_external.png>]
+
+LaTeX Warning: Reference `probabilitymaplocation' on page 13 undefined on input
+ line 164.
+
+) [13] [14] (D:\Skole\Master\Report\MTReport\TeXfiles/results.tex
 Chapter 4.
-) [7
+<figures/TodoListUsage.png, id=427, 602.25pt x 372.39125pt>
+File: figures/TodoListUsage.png Graphic file (type png)
+
+<use figures/TodoListUsage.png>
+Package pdftex.def Info: figures/TodoListUsage.png used on input line 13.
+(pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
+
+<figures/TaskRegularity.png, id=430, 602.25pt x 372.39125pt>
+File: figures/TaskRegularity.png Graphic file (type png)
+
+<use figures/TaskRegularity.png>
+Package pdftex.def Info: figures/TaskRegularity.png used on input line 23.
+(pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
+
+<figures/TaskFrequency.png, id=432, 602.25pt x 372.39125pt>
+File: figures/TaskFrequency.png Graphic file (type png)
+
+<use figures/TaskFrequency.png>
+Package pdftex.def Info: figures/TaskFrequency.png used on input line 31.
+(pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
+
+<figures/TaskDistribution.png, id=435, 602.25pt x 372.39125pt>
+File: figures/TaskDistribution.png Graphic file (type png)
+
+<use figures/TaskDistribution.png>
+Package pdftex.def Info: figures/TaskDistribution.png used on input line 67.
+(pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
+ [15
 
 
 
-]
-No file TeXfiles/analysis.tex.
-(D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.tex
+] [16 <D:/Skole/Master/Report/MTReport/figures/TodoListUsage.png> <D:/Skole/Mas
+ter/Report/MTReport/figures/TaskRegularity.png>] [17 <D:/Skole/Master/Report/MT
+Report/figures/TaskFrequency.png>]
+[18 <D:/Skole/Master/Report/MTReport/figures/TaskDistribution.png>]
+<figures/TaskDistributionComparison.png, id=460, 412.54124pt x 183.084pt>
+File: figures/TaskDistributionComparison.png Graphic file (type png)
+
+<use figures/TaskDistributionComparison.png>
+Package pdftex.def Info: figures/TaskDistributionComparison.png used on input l
+ine 111.
+(pdftex.def)             Requested size: 418.25368pt x 185.62294pt.
+ [19 <D:/Skole/Master/Report/MTReport/figures/TaskDistributionComparison.png>])
+ [20]
+(D:\Skole\Master\Report\MTReport\TeXfiles/discussion.tex
 Chapter 5.
-) [8
+) [21
 
 
+
+] (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.tex
+Chapter 6.
+) [22
 
 
 
@@ -841,71 +942,122 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 
 (D:\Programfiler\MiKTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)) [9
+) [23
 
 
-]
+]) [24]
 (D:\Skole\Master\Report\MTReport\TeXfiles/appendix.tex
-<appendix/StudentTasks1.PNG, id=248, 381.8265pt x 478.78876pt>
+Appendix A.
+<appendix/StudentTasks1.PNG, id=497, 381.8265pt x 478.78876pt>
 File: appendix/StudentTasks1.PNG Graphic file (type png)
 
 <use appendix/StudentTasks1.PNG>
-Package pdftex.def Info: appendix/StudentTasks1.PNG used on input line 4.
-(pdftex.def)             Requested size: 418.25368pt x 524.47754pt.
+Package pdftex.def Info: appendix/StudentTasks1.PNG used on input line 5.
+(pdftex.def)             Requested size: 334.60422pt x 419.58203pt.
 
-<appendix/StudentTasks2.PNG, id=250, 380.01974pt x 546.843pt>
+<appendix/StudentTasks2.PNG, id=498, 380.01974pt x 546.843pt>
 File: appendix/StudentTasks2.PNG Graphic file (type png)
 
 <use appendix/StudentTasks2.PNG>
-Package pdftex.def Info: appendix/StudentTasks2.PNG used on input line 10.
-(pdftex.def)             Requested size: 418.25368pt x 601.88795pt.
+Package pdftex.def Info: appendix/StudentTasks2.PNG used on input line 11.
+(pdftex.def)             Requested size: 334.60422pt x 481.50702pt.
 
 
-LaTeX Warning: Float too large for page by 34.24324pt on input line 13.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [10
+[25
 
-] [11 <D:/Skole/Master/Report/MTReport/appendix/StudentTasks1.PNG>]
-[12 <D:/Skole/Master/Report/MTReport/appendix/StudentTasks2.PNG>]
 
+ <D:/Skole/Master/Report/MTReport/appendix/StudentTasks1.PNG>] [26 <D:/Skole/Ma
+ster/Report/MTReport/appendix/StudentTasks2.PNG>]
+Appendix B.
+<appendix/MainScreenToday.PNG, id=510, 1084.05pt x 1927.2pt>
+File: appendix/MainScreenToday.PNG Graphic file (type png)
+
+<use appendix/MainScreenToday.PNG>
+Package pdftex.def Info: appendix/MainScreenToday.PNG used on input line 21.
+(pdftex.def)             Requested size: 104.56342pt x 185.87953pt.
+
+<appendix/MainScreenWeek.PNG, id=511, 1084.05pt x 1927.2pt>
+File: appendix/MainScreenWeek.PNG Graphic file (type png)
+
+<use appendix/MainScreenWeek.PNG>
+Package pdftex.def Info: appendix/MainScreenWeek.PNG used on input line 27.
+(pdftex.def)             Requested size: 104.56342pt x 185.87953pt.
+ [27
+
+ <D:/Skole/Master/Report/MTReport/appendix/MainScreenToday.PNG> <D:/Skole/Maste
+r/Report/MTReport/appendix/MainScreenWeek.PNG>]
+Appendix C.
+<appendix/CollectedTasksFormat.PNG, id=517, 1112.35574pt x 216.20775pt>
+File: appendix/CollectedTasksFormat.PNG Graphic file (type png)
+
+<use appendix/CollectedTasksFormat.PNG>
+Package pdftex.def Info: appendix/CollectedTasksFormat.PNG used on input line 3
+7.
+(pdftex.def)             Requested size: 418.25368pt x 81.29544pt.
+
+<appendix/CollectedContextsFormat.PNG, id=518, 567.92175pt x 190.311pt>
+File: appendix/CollectedContextsFormat.PNG Graphic file (type png)
+
+<use appendix/CollectedContextsFormat.PNG>
+Package pdftex.def Info: appendix/CollectedContextsFormat.PNG used on input lin
+e 43.
+(pdftex.def)             Requested size: 418.25368pt x 140.16002pt.
+ [28
+
+ <D:/Skole/Master/Report/MTReport/appendix/CollectedTasksFormat.PNG> <D:/Skole/
+Master/Report/MTReport/appendix/CollectedContextsFormat.PNG>]
+Appendix D.
+(D:\Programfiler\MiKTeX\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 58.
+
+(D:\Skole\Master\Report\MTReport\appendix/Recommender.java [29
+
+] [30] [31]
+[32] [33] [34])) [35] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 (D:\Skole\Master\Report\MTReport\MTReport.aux
 (D:\Skole\Master\Report\MTReport\TeXfiles/introduction.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/results.aux)
-(D:\Skole\Master\Report\MTReport\TeXfiles/analysis.aux)
+(D:\Skole\Master\Report\MTReport\TeXfiles/discussion.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
 Package rerunfilecheck Info: File `MTReport.out' has not changed.
-(rerunfilecheck)             Checksum: 1127DB3658216006555161B3849C50D5;1712.
+(rerunfilecheck)             Checksum: A713207342BB3F925FFDB2A9AD682405;2805.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 6665 strings out of 493921
- 97225 string characters out of 3149268
- 188338 words of memory out of 3000000
- 9706 multiletter control sequences out of 15000+200000
- 55042 words of font info for 75 fonts, out of 3000000 for 9000
+ 9147 strings out of 493921
+ 132986 string characters out of 3149268
+ 410486 words of memory out of 3000000
+ 11620 multiletter control sequences out of 15000+200000
+ 58402 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,11n,30p,755b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,45p,1142b,1891s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lars.strand\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ectt1000.pk>{D:/Programfiler/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<D:/P
-rogramfiler/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><D:/Programfiler/MiK
-TeX/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programfiler/MiKTeX/fonts/type1
-/bitstrea/charter/bchri8a.pfb><D:/Programfiler/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb>
-Output written on MTReport.pdf (20 pages, 264635 bytes).
+pi525\ectt0800.pk> <C:\Users\lars.strand\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ectt1000.pk>{D:/Programfiler/MiKTeX/fonts/enc/dvips/fontn
+ame/8r.enc}<D:/Programfiler/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><D:/
+Programfiler/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programfiler/Mi
+KTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><D:/Programfiler/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on MTReport.pdf (44 pages, 1173320 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1251 PDF objects out of 1440 (max. 8388607)
+ 595 named destinations out of 1000 (max. 500000)
+ 430 words of extra memory for PDF output out of 10000 (max. 10000000)
 

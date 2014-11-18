@@ -8,21 +8,36 @@
 \BOOKMARK [1][-]{section.1.2}{Problem description}{section*.11}% 8
 \BOOKMARK [1][-]{section.1.3}{Research questions}{section*.11}% 9
 \BOOKMARK [0][-]{section*.12}{Related Work}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Context}{section*.12}% 11
-\BOOKMARK [1][-]{section.2.2}{Context awareness}{section*.12}% 12
-\BOOKMARK [1][-]{section.2.3}{Intelligent task and time management systems}{section*.12}% 13
-\BOOKMARK [2][-]{subsection.2.3.1}{Calendar systems}{section.2.3}% 14
-\BOOKMARK [2][-]{subsection.2.3.2}{Task management systems}{section.2.3}% 15
-\BOOKMARK [1][-]{section.2.4}{Context history}{section*.12}% 16
-\BOOKMARK [0][-]{section*.13}{Methodology}{}% 17
-\BOOKMARK [1][-]{section.3.1}{User group}{section*.13}% 18
-\BOOKMARK [1][-]{section.3.2}{Application}{section*.13}% 19
-\BOOKMARK [2][-]{subsection.3.2.1}{General application design}{section.3.2}% 20
-\BOOKMARK [2][-]{subsection.3.2.2}{Context acquisition}{section.3.2}% 21
-\BOOKMARK [2][-]{subsection.3.2.3}{Context storage}{section.3.2}% 22
-\BOOKMARK [2][-]{subsection.3.2.4}{Recommender}{section.3.2}% 23
+\BOOKMARK [1][-]{section.2.1}{Context awareness}{section*.12}% 11
+\BOOKMARK [1][-]{section.2.2}{Context history}{section*.12}% 12
+\BOOKMARK [1][-]{section.2.3}{Making predictions based on context}{section*.12}% 13
+\BOOKMARK [1][-]{section.2.4}{Context abstraction and modeling}{section*.12}% 14
+\BOOKMARK [1][-]{section.2.5}{Intelligent task and time management systems}{section*.12}% 15
+\BOOKMARK [0][-]{section*.13}{Methodology}{}% 16
+\BOOKMARK [1][-]{section.3.1}{User group}{section*.13}% 17
+\BOOKMARK [1][-]{section.3.2}{Application}{section*.13}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{General application design}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{Context acquisition}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.3}{Context storage}{section.3.2}% 21
+\BOOKMARK [1][-]{section.3.3}{Recommender}{section*.13}% 22
+\BOOKMARK [2][-]{subsection.3.3.1}{Chosen recommendation algorithm}{section.3.3}% 23
 \BOOKMARK [0][-]{section*.16}{Results}{}% 24
-\BOOKMARK [1][-]{section.4.1}{Student tasks}{section*.16}% 25
-\BOOKMARK [0][-]{section*.17}{Conclusion}{}% 26
-\BOOKMARK [0][-]{section*.19}{Bibliography}{}% 27
-\BOOKMARK [1][-]{section.Alph0.1}{Student tasks questionnaire}{section*.19}% 28
+\BOOKMARK [1][-]{section.4.1}{Software engineering}{section*.16}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Student tasks}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.2}{Collected student tasks}{section.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.1.3}{Design decisions}{section.4.1}% 28
+\BOOKMARK [1][-]{section.4.2}{Context collection}{section*.16}% 29
+\BOOKMARK [1][-]{section.4.3}{Domain}{section*.16}% 30
+\BOOKMARK [0][-]{section*.18}{Discussion}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Software engineering decisions}{section*.18}% 32
+\BOOKMARK [2][-]{subsection.5.1.1}{Task collection issues and improvements}{section.5.1}% 33
+\BOOKMARK [1][-]{section.5.2}{Context collection}{section*.18}% 34
+\BOOKMARK [1][-]{section.5.3}{Context representation and usefulness}{section*.18}% 35
+\BOOKMARK [1][-]{section.5.4}{Domain issues}{section*.18}% 36
+\BOOKMARK [2][-]{subsection.5.4.1}{Generalization to other domains}{section.5.4}% 37
+\BOOKMARK [0][-]{section*.19}{Conclusion}{}% 38
+\BOOKMARK [0][-]{section*.21}{Bibliography}{}% 39
+\BOOKMARK [0][-]{section*.22}{Student tasks questionnaire}{}% 40
+\BOOKMARK [0][-]{section*.23}{Application GUI}{}% 41
+\BOOKMARK [0][-]{section*.24}{Format of collected tasks and contexts}{}% 42
+\BOOKMARK [0][-]{section*.25}{Recommender algorithm}{}% 43
