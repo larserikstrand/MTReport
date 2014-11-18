@@ -33,32 +33,65 @@ These categories are based on the results of the short student task questionnair
 \section{Application}
 
 \subsection{General application design}
-By choosing to create a todo-list application the user should be able to perform actions that are normal for such applications. These actions include creating and storing tasks, as well editing and deleting them. The tasks should also be possible to arrange into lists. The application in this study is developed in a way that supports all these aspects. When a todo-item or task is created, a date will be attached to that particular task, thereby organizing the tasks with similar dates into lists.
+By choosing to create a todo-list application, the user should be able to perform actions that are normal for such applications. These actions include creating and storing tasks, as well editing and deleting them. The tasks should also be possible to arrange into lists. By studying other to-do list applications \cite{trello, todoist} we came up with a set of minimum requirements that the application would have to fulfill.
+\begin{itemize}
+	\item Creating tasks.
+	\item Editing/deleting tasks.
+	\item Creating lists for tasks.
+	\item Managing lists by editing/deleting them, or moving tasks between lists.
+\end{itemize}
+These are core features that are supported in popular to-do lists, and the users would expect a to-do list to have this functionality. The application in this study is developed in a way that supports all these aspects. When a todo-item or task is created, a date will be attached to that particular task, thereby organizing the tasks with similar dates into lists.
 
-We would also need a schema for storing context information, as well as a recommender that will process the stored contexts and provide recomendations. A conceptual model of the application is shown in Figure~\ref{fig:conceptualmodel}.
+We want to utilize context features in our application in order to make task recommendations for the user. Therefore, we would have a few more requirements in addition to the ones mentioned above:
+\begin{itemize}
+	\item Collection of contexts
+	\item Modeling and representing the contexts in a way that it can be utilized.
+	\item A recommender module to process the tasks and contextual information.
+\end{itemize}
+
+With the above requirements in mind, we designed a conceptual model of the application, shown in Figure~\ref{fig:conceptualmodel}.
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=\textwidth]{figures/ConceptualDiagram.png}
   \caption[Conceptual model]{Conceptual model of the application.}
   \label{fig:conceptualmodel}
 \end{figure}
-The lines pointing towards the recommender represents its input, whereas the line pointing outward is the actual recommendation. The input for the recommender consists of three parts:
+The figure shows the general idea behind the application. We have the user in the center in the current context. To the right we have all the tasks that the user has planned in the application. When these tasks are being done the contexts of the user are tracked, and upon completion stored together with the tasks in the database, as shown on the left. Here, the completed tasks and their related contexts make up the task and context history.
+
+The recommender is a separate and independent module in the application. The lines pointing towards the recommender represents its input, whereas the line pointing outward is the output, i.e. the actual task recommendation. The input for the recommender consists of three parts:
 \begin{itemize}
 	\item The tasks that the user needs to do (planned tasks).
-	\item The tasks that the user has previously done (task history).
-	\item The contexts of related to the previously done tasks (context history).
+	\item The tasks that the user has previously done (task history) and the contexts related to these tasks (context history).
 	\item The users current context.
 \end{itemize}
 By taking all these components into account, the recommender will be able process the information and suggest a task for the user. The recommender is discussed more thoroughly in Section~\ref{sec:recommender}.
 
-The design of the main application screen is shown in Figure~\ref{fig:designmainscreen}.
+In the overall design of the application, we decided to stay with the Android design principles\cite{androiddesign} as much as possible. Popular apps on Google Play tend to follow similar design patterns, which means that Android OS users are accustomed to a certain look and feel. We wanted to provide a look and feel in our application that would be familiar to the users, in this case the students using the application. The graphical design of the main application screen is shown in Figure~\ref{fig:designmainscreen}.
 \begin{figure}[tbp]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/MainScreenStarted.png}
+  \includegraphics[width=0.35\textwidth]{figures/MainScreenStarted.png}
   \caption[Main application screen]{The main screen of the application, showing a few tasks where one is ongoing and one is finished.}
   \label{fig:designmainscreen}
 \end{figure}
+Here we can see several similarities with the design guidelines. There is a toolbar with common actions at the top (new task button and an overflow menu with settings and about) which is also given a app-specific color that runs through several other parts of the application (also called branding). We also provided tabs to allow the users to easily change between viewing both future planned tasks and past tasks. The \emph{today} tab is the default tab, displaying the tasks that the user has planned for the current day. Tasks that have been started by the user is placed at the top of the list and given a background color to indicate that it is running. Finished tasks are automatically placed at the bottom. The user also have the option to reorder the tasks through drag and drop.
 
+A slightly simplified version of the overall workflow of the application is shown in Figure~\ref{fig:workflow}.
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/Workflow.png}
+  \caption[Application workflow]{Application workflow.}
+  \label{fig:workflow}
+\end{figure}
+This depicts the basic functionality that is provided. 
+
+When the users launches the application, the \emph{today} screen is shown by default. From here, the user can create a new list of tasks, add tasks to current lists or delete tasks or lists. Upon selecting a list, the user can edit and delete existing tasks within that list or create new tasks. When wanting to edit or create a new task the user is directed to the new task screen. This is where the actual information about the task is entered. The creation of a new task is shown in Figure~\ref{fig:newtask}.
+\begin{figure}[tbp]
+  \centering
+  \includegraphics[width=0.35\textwidth]{figures/NewTask.png}
+  \caption[Screen for creating a new task]{Creating a new task.}
+  \label{fig:newtask}
+\end{figure}
+A category for the task has to be entered here. This is done by selecting one of our predefined tasks from a list. The user can also provide an optional description for the task. For this thesis, it was decided that a location should also be required by the users to provide. This is because we are designing a context-aware application that heavily relies on location. However, for a commercialized version of the application, a location would probably not be required as the users might get tired of having to input a location for every task. The location can either be input as text, where an autocomplete function was implemented to help users select real locations, or the map button can be clicked, which lets the user pinpoint the location from a map. The tasks can also have a fixed starting time and/or end time, which is optional.
 
 \subsection{Context acquisition}
 By storing contextual information about how tasks are performed, the recommender will be able to not only provide recommendations based on current and planned contexts, but also take into account in what contexts tasks have been done previously. A certain task may work well in one context and poorly in another. However, before designing the overall schema of context representation, decisions on what contexts to actually use and collect needs to be made. In a mobile device there are typically many types of contexts that can be  collected via the system and its sensors. Some of these are:
@@ -88,20 +121,18 @@ The actual logic behind the tracking of tasks and their contexts is a separate p
   \includegraphics[width=0.5\textwidth]{figures/TaskRepresentation.png}
   \caption[In-app representation of task]{The in-app representation of a planned task.}
   \label{fig:taskrepresentation}
-\end{figure} 
+\end{figure}
 
-\subsection{Context storage}
-A database was needed to store both the collected contexts and the tasks. Both an internal and external database was chosen to hold the data. An internal database was chosen because it is easy to implement as well as it allows for the application to be used while being offline. However, in order to easily retrieve and analyze the collected tasks and contexts for the thesis results, an external database was chosen. While the internal database only holds information regarding the specific installation, the external database holds all the information about all installations.
+\section{Context storage and modeling}
+A database was needed to store both the collected contexts and the tasks. Both an internal and external database was chosen to hold the data. An internal database was chosen because it is easy to implement as well as it allows for the application to be used while being offline. However, in order to easily retrieve and analyze the collected tasks and contexts for the thesis results, an external database was chosen. While the internal database only holds information regarding the specific installation, the external database holds all the information about all installations, i.e. all tasks and all contexts from all users. We used the Android built-in SQLite database for the internal storage and Google's AppEngine datastore for the remote storage.
 
-While many studies have looking into context modeling and representation (reference here), we decided to go with a normalized database approach. Context modeling and representation studies is often about providing proper abstraction from the raw context data. However, by using the integrated features for collecting contexts in Android, such abstractions are already built into the framework. The representation of the data is shown in Figure~\ref{fig:databasemodel} and Figure~\ref{fig:databasemodelexternal}
-
+While many studies have looking into context modeling and representation \emph{\color{red}(reference(s) here)}, we decided to go with a normalized database approach. Context modeling and representation studies is often about providing proper abstraction from the raw context data. However, by using the integrated features for collecting contexts in Android, such abstractions are already built into the framework. Instead of getting raw contextual data from the framework, we can get data that are ready to be used and stored directly. For location contexts for example, we could get GPS coordinates, or even a specific address. For a user activity context we could get the data as a string indicating whether the user is \emph{still}, \emph{on foot} or \emph{in vehicle} to name a few. The representation of the data for the application is shown in Figure~\ref{fig:databasemodel} and Figure~\ref{fig:databasemodelexternal}
 \begin{figure}[tbp]
   \centering
-  \includegraphics[width=\textwidth]{figures/DatabaseModel.png}
+  \includegraphics[width=0.8\textwidth]{figures/DatabaseModel.png}
   \caption[Database model]{SQLite representation of the individual installations application data.}
   \label{fig:databasemodel}
 \end{figure}
-
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=0.5\textwidth]{figures/DatabaseModel_external.png}
@@ -109,13 +140,15 @@ While many studies have looking into context modeling and representation (refere
   \label{fig:databasemodelexternal}
 \end{figure}
 
+The actual acquisition of the context data happens when the users starts a task from the application. A background service is then started and runs on the device until the task is paused by the user or completed. The service collects these contexts at certain intervals. If a collected context, for example location, is already collected for a specific task then that context is not stored again. Multiple identical locations for a single task is not needed, so this prevents some information overhead.
+
 
 
 
 \section{Recommender}
 \label{sec:recommender}
 
-When creating the recommender-part of the application, several decisions needed to be made. First of all, we needed to decide what kind of recommendations to make. There where many possible ways to do this:
+When creating the recommender part of the application, several decisions needed to be made. First of all, we needed to decide what kind of recommendations to make. There where many possible ways to do this:
 \begin{itemize}
 	\item Location proximity recommendations.
   \item Recommendations based on time of day.
@@ -126,7 +159,7 @@ When creating the recommender-part of the application, several decisions needed 
   \item Combinations of the above.
 \end{itemize}
 
-After deciding what to recommend, the underlying logic also needs to be decided. A recommender will need some form of logic for comparison, so that it can know that it should recommend one task over another. Such logic already exist in some systems. We have seen Netflix\cite{netflix} recommending movies and Amazon\cite{amazon} recommending books and other wares. It is necessary to analyze these systems for potentially reusable recommendation algorithms:
+After deciding what to recommend, the underlying logic also needed to be decided. A recommender will need some form of logic for comparison, so that it can know that it should recommend one task over another. Such logic already exist in some systems. We have seen Netflix\cite{netflix} recommend movies and Amazon\cite{amazon} recommend books to name a couple. It is potentially beneficial to analyze other systems for reusable recommendation algorithms.
 
 \subsubsection{Neural networks}
 Neural networks describes the process in which the computer\ldots
@@ -139,7 +172,7 @@ Unfinished \ldots
 
 \subsection{Chosen recommendation algorithm}
 
-As mentioned earlier, the input for the recommender consist of the users planned task, the current context, and the entire task history with related contexts. The recommender starts by looking at the categories of the user's planned tasks and tries to calculate a probability for each of them, representing how likely the task is going to be chosen next by the user. This calculation is done based on the tasks that the user has previously done and in what contexts. Probability calculations are made individually for each of the different contexts, but also for combinations of them. For example, the recommender will consider the current time of day and then find other tasks that have been done during the same time of day previously. The probability for a specific task is then calculated by dividing the number of occurrences of that particular task by the total number of tasks performed at that time of day. This is done for each of the tasks that the user has planned and the result is put into a hashmap, as shown in Table~\ref{tab:probabilitymaptimeofday}.
+As mentioned earlier, the input for the recommender consist of the users planned task, the current context, and the entire task history with related contexts. The recommender starts by looking at the categories of the user's planned tasks and tries to calculate a probability for each of them, representing how likely the task is going to be chosen next by the user. This calculation is done based on the tasks that the user has previously done and in what contexts. Probability calculations are made individually for each of the different contexts, but also for combinations of them. For example, the recommender will consider the current time of day and then find other tasks that have been done during the same time of day previously. The probability for a specific task is then calculated by dividing the number of occurrences of that particular task by the total number of tasks performed at that time of day. This is done for each of the tasks that the user has planned and the result is put into a map, as shown in Table~\ref{tab:probabilitymaptimeofday}.
 \begin{table}[tbp]
   \centering
   \begin{tabular}{|l|r|}
@@ -161,7 +194,7 @@ As mentioned earlier, the input for the recommender consist of the users planned
   \label{tab:probabilitymaptimeofday}
 \end{table}
 
-The same process is executed for other contexts as well. For example, based on the current location of the user, the recommender finds all tasks that have been performed in that particular location. Probabilities are then calculated the same way as for the time of day. The task probability hashmap based on location may look like Table~\ref{probabilitymaplocation}.
+The same process is executed for other contexts as well. For example, based on the current location of the user, the recommender finds all tasks that have been performed in that particular location. Probabilities are then calculated the same way as for the time of day. The task probability map based on location may look like Table~\ref{probabilitymaplocation}.
 \begin{table}[tbp]
   \centering
   \begin{tabular}{|l|r|}
@@ -183,7 +216,7 @@ The same process is executed for other contexts as well. For example, based on t
   \label{tab:probabilitymaplocation}
 \end{table}
 
-Similar hashmaps are calculated for each context and all combinations of them. This means:
+Similar maps are calculated for each context and all combinations of them. This means:
 \begin{itemize}
 	\item Time of day
 	\item Day of week
@@ -193,7 +226,7 @@ Similar hashmaps are calculated for each context and all combinations of them. T
 	\item Day of week \emph{and} location
 	\item Time of day \emph{and} day of week \emph{and} location
 \end{itemize}
-The highest probability from each of these individual probability hashmaps are then put into a resulting hashmap, where the highest probability in will be the actual task recommendation med by the recommender. Looking at Table~\ref{tab:probabilitymaptimeofday} and Table~\ref{tab:probabilitymaplocation}, the resulting hashmap will look like Table~\ref{tab:probabilitymapresult}.
+The highest probability from each of these individual probability maps are then put into a resulting map, where the highest probability in this map will be the actual task recommendation med by the recommender. Looking at Table~\ref{tab:probabilitymaptimeofday} and Table~\ref{tab:probabilitymaplocation}, the resulting map will look like Table~\ref{tab:probabilitymapresult}.
 \begin{table}[tbp]
   \centering
   \begin{tabular}{|l|r|}
@@ -209,3 +242,8 @@ The highest probability from each of these individual probability hashmaps are t
   \label{tab:probabilitymapresult}
 \end{table}
 The actual recommendation made by the recommender in this example would be the task with the category ``practical work''.
+
+\section{Application distribution and user experiments}
+To test our design decision we needed users to test the application for a certain period of time. Because the application is based on task and context history, it would take some time and usage in order for history to build up. A large history of tasks and contexts is needed so that for the recommender can make reasonable recommendations. The recommendations from the recommender should increase in accuracy over time. By accuracy we mean tasks that matches the tasks that the users intend to do next. We could say that the application is ``learning'' the users behavior over time. For this experiment, we considered 2-3 weeks to be enough time to get some useful data from the application usage.
+
+The application was uploaded to Google Play for distributing. This made the application easily available for anyone who wished to test it. Requesting participants for the application testing was done by mailing students at Gjøvik University College.

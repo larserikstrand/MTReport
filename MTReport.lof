@@ -1,17 +1,19 @@
 \select@language {english}
 \contentsline {figure}{\numberline {1}{\ignorespaces Conceptual model}}{8}{figure.3.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces Main application screen}}{9}{figure.3.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces In-app representation of task}}{10}{figure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Database model}}{11}{figure.3.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces External database model}}{12}{figure.3.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces To-do list usage}}{16}{figure.4.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Student task regularity}}{16}{figure.4.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Student task frequency}}{17}{figure.4.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Collected task type distribution}}{18}{figure.4.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces All tasks and tasks with collected contexts comparison}}{19}{figure.4.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Student tasks questionnaire part 1.}}{25}{figure.A.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Student tasks questionnaire part 2.}}{26}{figure.A.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Main application screen design showing tasks for ``today''.}}{27}{figure.B.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Main application screen design showing tasks for the ``week''.}}{27}{figure.B.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces The result format for the collected tasks.}}{28}{figure.C.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces The result format for the collected contexts.}}{28}{figure.C.16}
+\contentsline {figure}{\numberline {3}{\ignorespaces Application workflow}}{10}{figure.3.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Screen for creating a new task}}{11}{figure.3.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces In-app representation of task}}{12}{figure.3.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Database model}}{13}{figure.3.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces External database model}}{13}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces To-do list usage}}{18}{figure.4.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Student task regularity}}{18}{figure.4.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Student task frequency}}{19}{figure.4.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Collected task type distribution}}{20}{figure.4.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces All tasks and tasks with collected contexts comparison}}{21}{figure.4.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Student tasks questionnaire part 1.}}{27}{figure.A.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Student tasks questionnaire part 2.}}{28}{figure.A.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Main application screen design showing tasks for ``today''.}}{29}{figure.B.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Main application screen design showing tasks for the ``week''.}}{29}{figure.B.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces The result format for the collected tasks.}}{30}{figure.C.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces The result format for the collected contexts.}}{30}{figure.C.18}

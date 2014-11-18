@@ -18,30 +18,30 @@
 \contentsline {section}{\numberline {3.1}User group}{6}{section.3.1}
 \contentsline {section}{\numberline {3.2}Application}{7}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}General application design}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Context acquisition}{8}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Context storage}{10}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Recommender}{10}{section.3.3}
-\contentsline {subsubsection}{Neural networks}{12}{section*.14}
-\contentsline {subsubsection}{Probability calculations}{12}{section*.15}
-\contentsline {subsection}{\numberline {3.3.1}Chosen recommendation algorithm}{12}{subsection.3.3.1}
-\contentsline {chapter}{\numberline {4}Results}{15}{section*.16}
-\contentsline {section}{\numberline {4.1}Software engineering}{15}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Student tasks}{15}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Collected student tasks}{15}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Design decisions}{19}{subsection.4.1.3}
-\contentsline {paragraph}{sad}{19}{section*.17}
-\contentsline {section}{\numberline {4.2}Context collection}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}Domain}{20}{section.4.3}
-\contentsline {chapter}{\numberline {5}Discussion}{21}{section*.18}
-\contentsline {section}{\numberline {5.1}Software engineering decisions}{21}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Task collection issues and improvements}{21}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Context collection}{21}{section.5.2}
-\contentsline {section}{\numberline {5.3}Context representation and usefulness}{21}{section.5.3}
-\contentsline {section}{\numberline {5.4}Domain issues}{21}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Generalization to other domains}{21}{subsection.5.4.1}
-\contentsline {chapter}{\numberline {6}Conclusion}{22}{section*.19}
-\contentsline {chapter}{Bibliography}{23}{section*.21}
-\contentsline {chapter}{\numberline {A}Student tasks questionnaire}{25}{section*.22}
-\contentsline {chapter}{\numberline {B}Application GUI}{27}{section*.23}
-\contentsline {chapter}{\numberline {C}Format of collected tasks and contexts}{28}{section*.24}
-\contentsline {chapter}{\numberline {D}Recommender algorithm}{29}{section*.25}
+\contentsline {subsection}{\numberline {3.2.2}Context acquisition}{10}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Context storage and modeling}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Recommender}{12}{section.3.4}
+\contentsline {subsubsection}{Neural networks}{14}{section*.14}
+\contentsline {subsubsection}{Probability calculations}{14}{section*.15}
+\contentsline {subsection}{\numberline {3.4.1}Chosen recommendation algorithm}{14}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Application distribution and user experiments}{15}{section.3.5}
+\contentsline {chapter}{\numberline {4}Results}{17}{section*.16}
+\contentsline {section}{\numberline {4.1}Application design}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Student tasks}{17}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Collected student tasks}{17}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Design decisions}{21}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Context collection}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Domain}{22}{section.4.3}
+\contentsline {chapter}{\numberline {5}Discussion}{23}{section*.17}
+\contentsline {section}{\numberline {5.1}Software engineering decisions}{23}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Task collection issues and improvements}{23}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Context collection}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Context representation and usefulness}{23}{section.5.3}
+\contentsline {section}{\numberline {5.4}Domain issues}{23}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Generalization to other domains}{23}{subsection.5.4.1}
+\contentsline {chapter}{\numberline {6}Conclusion}{24}{section*.18}
+\contentsline {chapter}{Bibliography}{25}{section*.20}
+\contentsline {chapter}{\numberline {A}Student tasks questionnaire}{27}{section*.21}
+\contentsline {chapter}{\numberline {B}Application GUI}{29}{section*.22}
+\contentsline {chapter}{\numberline {C}Format of collected tasks and contexts}{30}{section*.23}
+\contentsline {chapter}{\numberline {D}Recommender algorithm}{31}{section*.24}

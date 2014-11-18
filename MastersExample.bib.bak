@@ -260,6 +260,14 @@
   Timestamp                = {2014.11.10}
 }
 
+@Misc{androiddesign,
+  Title                    = {Android Design Principles},
+  HowPublished             = {\url{http://developer.android.com/design/index.html}},
+
+  Owner                    = {lars.strand},
+  Timestamp                = {2014.11.18}
+}
+
 @Misc{googlecalendar,
   Title                    = {Google Calendar},
   HowPublished             = {\url{https://www.google.com/calendar}},

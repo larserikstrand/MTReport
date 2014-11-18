@@ -116,6 +116,10 @@ Lawler, E.~L., Lenstra, J.~K., Kan, A.~R., \& Shmoys, D.~B.
   optimization}, volume~3.
 \newblock Wiley Chichester.
 
+\bibitem{androiddesign}
+Android design principles.
+\newblock \url{http://developer.android.com/design/index.html}.
+
 \bibitem{netflix}
 Netflix.
 \newblock \url{https://www.netflix.com}.
