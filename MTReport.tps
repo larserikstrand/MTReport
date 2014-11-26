@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=MTReport.tex
 
 [Frame0_View0,0]
-TopLine=6
-Cursor=570
+TopLine=9
+Cursor=266
 
 [Frame1]
 Flags=0
@@ -35,8 +35,8 @@ Class=LaTeXView
 Document=TeXfiles\introduction.tex
 
 [Frame1_View0,0]
-TopLine=34
-Cursor=3316
+TopLine=21
+Cursor=2592
 
 [Frame2]
 Flags=0
@@ -53,8 +53,8 @@ Class=LaTeXView
 Document=TeXfiles\methodology.tex
 
 [Frame2_View0,0]
-TopLine=255
-Cursor=13204
+TopLine=91
+Cursor=7745
 
 [Frame3]
 Flags=0
@@ -71,8 +71,8 @@ Class=LaTeXView
 Document=TeXfiles\results.tex
 
 [Frame3_View0,0]
-TopLine=140
-Cursor=8533
+TopLine=173
+Cursor=10651
 
 [Frame4]
 Flags=0
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=TeXfiles\appendix.tex
 
 [Frame5_View0,0]
-TopLine=23
-Cursor=1288
+TopLine=15
+Cursor=782
 
 [Frame6]
 Flags=0
@@ -143,7 +143,7 @@ Class=LaTeXView
 Document=TeXfiles\relatedwork.tex
 
 [Frame7_View0,0]
-TopLine=65
+TopLine=67
 Cursor=7048
 
 [Frame8]
@@ -161,14 +161,13 @@ Class=LaTeXView
 Document=TeXfiles\discussion.tex
 
 [Frame8_View0,0]
-TopLine=2
-Cursor=664
+TopLine=0
+Cursor=369
 
 [SessionInfo]
 FrameCount=9
-ActiveFrame=3
+ActiveFrame=8
 
 [Bookmarks]
 MTReport.tex=8 
-TeXfiles\methodology.tex=156 
 

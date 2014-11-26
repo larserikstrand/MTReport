@@ -61,7 +61,15 @@ In order to find out whether our predefined tasks were enough to cover all the t
 \subsection{Collected student tasks}
 \label{subsec:collectedtasks}
 
-From the application user experimenting at the end of the thesis, a total of 46 tasks were logged in the external database. This is too few to make any strong conclusions upon the data, but it might be possible to make some small indications. The distribution of the types of tasks that the students actually did is shown in Figure~\ref{fig:taskdistribution}.
+From the application user experimenting at the end of the thesis, a total of 46 tasks were logged in the external database. This is too few to make any strong conclusions upon the data, but it might be possible to make some small indications. A small sample of the collected tasks and its format is shown in Figure~\ref{fig:collectedtaskssample}.
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/CollectedTasksFormat.PNG}
+\caption[Collected tasks sample]{Sample of collected tasks and its format.}
+\label{fig:collectedtaskssample}
+\end{figure}
+
+The distribution of the types of tasks that the students actually did is shown in Figure~\ref{fig:taskdistribution}.
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=\textwidth]{figures/TaskDistribution.png}
@@ -115,17 +123,34 @@ We can see that the distribution of the task categories for the tasks that have 
 
 
 \subsection{Design decisions}
-Through the application development process and user testing we learned that some design concepts worked well ans some did not.
+Through the application development process and user testing we learned that some design concepts worked well and some did not. One design decision that did not work as well as intended was the overall application workflow. The process of actually creating a new task in the application was slightly overcomplicated by having to go through a specific list in order to do so. This was confirmed by a couple of students who wrote this in an email as a response to the requesting of participants.
+
+Another design decision that did not work well was how we chose to start and stop the collection of contexts in the background as the user performed a task. Whether or not contexts were collected for a task was entirely up to the user remembering to manually start the task from the application. By the number of tasks that contexts were collected for compared to the total number of tasks, it was evident that this was not a good design.
 
 
 
 \section{Context collection}
+\label{sec:contextcollection}
 
-Looking at the data collected from the users tasks in Section~\ref{subsec:collectedtasks}, we can see that few tasks have been logged with an actual ``time spent'' value. The tasks that do not have this value, are tasks that have not been logged with contexts. This is because the users did not press the in-app start button, which means that they either forgot to do so, or that they ignored that part of the intended work flow. This is an indication that having users tracking their own tasks in this manner opens for inconsistencies and inaccuracies in the logging. It is hard for users to remember to log a task prior to the execution of the task.
+Looking at the data collected from the users tasks in Section~\ref{subsec:collectedtasks}, we can see that few tasks have been logged with an actual ``time spent'' value. The tasks that do not have this value, are tasks that have not been logged with contexts. This is because the users did not press the in-app start button, which means that they either forgot to do so, or that they ignored that part of the intended work flow. This is an indication that having users tracking their own tasks in this manner opens for inconsistencies and inaccuracies in the logging. It is hard for users to remember to log a task prior to the execution of the task. A sample of the collected contexts and their format are shown in Figure~\ref{fig:collectedcontextssample}.
+\begin{figure}[tbp]
+\centering
+\includegraphics[width=\columnwidth]{figures/CollectedContextsFormat.PNG}
+\caption[Collected contexts sample]{Sample of collected contexts and their format.}
+\label{fig:collectedcontextssample}
+\end{figure}
 
+We got a total of 206 collected contexts from all users for all tasks. 13 (6\%) of these were time contexts. Time contexts were only logged when the users remembered to both start and stop/finish the tasks. The application gave the tasks timestamps a when the were started/paused/finished and from this we could also calculate the time spent on the tasks. 160 (78\%) of the contexts were location contexts while the remaining 33 (16\%) were activity contexts. Activity contexts were predefined in an abstracted textual representation, as provided by the Android framework:
+\begin{itemize}
+	\item On foot
+	\item On bicycle
+	\item In vehicle
+	\item Still
+	\item Tilting (the activity is currently changing state, and the new state is not yet known)
+	\item Unknown
+\end{itemize}
+As with location contexts, activity contexts would not be stored twice for a task if that specific context already existed for that task. This means that the maximum number of activity context for one task is 6. For location contexts, there are no such limitations by a set of definitions, so that all the locations the the user would be at during the tracking would be logged. This is why there are many more location contexts than activity contexts.
 
-Another thing is to see if the actual location that the users performed their tasks coincides with the planned location of the tasks.
+Another reason for the many location contexts is that several users seemed to leave tasks as active while being on the move, such as driving a car, probably because they forgot to turn tracking off when they stopped doing the task. This belief is reinforced by the fact that the tasks in question also had the activity context ``in vehicle'' attached to them. These tasks had many collected location contexts, one with as many as 99 different locations.
 
-
-\section{Domain}
-
+Another thing is to see if the actual location that the users performed their tasks coincides with the planned location of the tasks. This was true for only 5 (38\%) of the 13 tasks. These 5 tasks had location contexts that matched the planned location of the task. 4 of the tasks had no location context, only activity contexts, logged. This leaves 4 tasks where the collected location context did not match the planned location of the task.

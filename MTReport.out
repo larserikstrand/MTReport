@@ -6,39 +6,45 @@
 \BOOKMARK [0][-]{section*.11}{Introduction}{}% 6
 \BOOKMARK [1][-]{section.1.1}{Topic}{section*.11}% 7
 \BOOKMARK [1][-]{section.1.2}{Problem description}{section*.11}% 8
-\BOOKMARK [1][-]{section.1.3}{Research questions}{section*.11}% 9
-\BOOKMARK [0][-]{section*.12}{Related Work}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Context awareness}{section*.12}% 11
-\BOOKMARK [1][-]{section.2.2}{Context history}{section*.12}% 12
-\BOOKMARK [1][-]{section.2.3}{Making predictions based on context}{section*.12}% 13
-\BOOKMARK [1][-]{section.2.4}{Context abstraction and modeling}{section*.12}% 14
-\BOOKMARK [1][-]{section.2.5}{Intelligent task and time management systems}{section*.12}% 15
-\BOOKMARK [0][-]{section*.13}{Methodology}{}% 16
-\BOOKMARK [1][-]{section.3.1}{User group}{section*.13}% 17
-\BOOKMARK [1][-]{section.3.2}{Application}{section*.13}% 18
-\BOOKMARK [2][-]{subsection.3.2.1}{General application design}{section.3.2}% 19
-\BOOKMARK [2][-]{subsection.3.2.2}{Context acquisition}{section.3.2}% 20
-\BOOKMARK [1][-]{section.3.3}{Context storage and modeling}{section*.13}% 21
-\BOOKMARK [1][-]{section.3.4}{Recommender}{section*.13}% 22
-\BOOKMARK [2][-]{subsection.3.4.1}{Chosen recommendation algorithm}{section.3.4}% 23
-\BOOKMARK [1][-]{section.3.5}{Application distribution and user experiments}{section*.13}% 24
-\BOOKMARK [0][-]{section*.16}{Results}{}% 25
-\BOOKMARK [1][-]{section.4.1}{Application design}{section*.16}% 26
-\BOOKMARK [2][-]{subsection.4.1.1}{Student tasks}{section.4.1}% 27
-\BOOKMARK [2][-]{subsection.4.1.2}{Collected student tasks}{section.4.1}% 28
-\BOOKMARK [2][-]{subsection.4.1.3}{Design decisions}{section.4.1}% 29
-\BOOKMARK [1][-]{section.4.2}{Context collection}{section*.16}% 30
-\BOOKMARK [1][-]{section.4.3}{Domain}{section*.16}% 31
-\BOOKMARK [0][-]{section*.17}{Discussion}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Software engineering decisions}{section*.17}% 33
-\BOOKMARK [2][-]{subsection.5.1.1}{Task collection issues and improvements}{section.5.1}% 34
-\BOOKMARK [1][-]{section.5.2}{Context collection}{section*.17}% 35
-\BOOKMARK [1][-]{section.5.3}{Context representation and usefulness}{section*.17}% 36
-\BOOKMARK [1][-]{section.5.4}{Domain issues}{section*.17}% 37
-\BOOKMARK [2][-]{subsection.5.4.1}{Generalization to other domains}{section.5.4}% 38
-\BOOKMARK [0][-]{section*.18}{Conclusion}{}% 39
-\BOOKMARK [0][-]{section*.20}{Bibliography}{}% 40
-\BOOKMARK [0][-]{section*.21}{Student tasks questionnaire}{}% 41
-\BOOKMARK [0][-]{section*.22}{Application GUI}{}% 42
-\BOOKMARK [0][-]{section*.23}{Format of collected tasks and contexts}{}% 43
-\BOOKMARK [0][-]{section*.24}{Recommender algorithm}{}% 44
+\BOOKMARK [1][-]{section.1.3}{Justification, motivation and benefits}{section*.11}% 9
+\BOOKMARK [1][-]{section.1.4}{Research questions}{section*.11}% 10
+\BOOKMARK [1][-]{section.1.5}{Thesis structure}{section*.11}% 11
+\BOOKMARK [0][-]{section*.12}{Related Work}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Context awareness}{section*.12}% 13
+\BOOKMARK [1][-]{section.2.2}{Collecting contexts}{section*.12}% 14
+\BOOKMARK [1][-]{section.2.3}{Context history}{section*.12}% 15
+\BOOKMARK [1][-]{section.2.4}{Making predictions based on context}{section*.12}% 16
+\BOOKMARK [1][-]{section.2.5}{Context abstraction and modeling}{section*.12}% 17
+\BOOKMARK [1][-]{section.2.6}{Intelligent task and time management systems}{section*.12}% 18
+\BOOKMARK [2][-]{subsection.2.6.1}{Alternative recommendation algorithms}{section.2.6}% 19
+\BOOKMARK [2][-]{subsection.2.6.2}{Probability calculations}{section.2.6}% 20
+\BOOKMARK [0][-]{section*.13}{Methodology}{}% 21
+\BOOKMARK [1][-]{section.3.1}{User group}{section*.13}% 22
+\BOOKMARK [1][-]{section.3.2}{Application}{section*.13}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{General application design}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Collecting context information}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Context storage and modeling}{section*.13}% 26
+\BOOKMARK [1][-]{section.3.4}{Recommender}{section*.13}% 27
+\BOOKMARK [2][-]{subsection.3.4.1}{Chosen recommendation algorithm}{section.3.4}% 28
+\BOOKMARK [1][-]{section.3.5}{Application distribution and user experiments}{section*.13}% 29
+\BOOKMARK [0][-]{section*.14}{Results}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Application design}{section*.14}% 31
+\BOOKMARK [2][-]{subsection.4.1.1}{Student tasks}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.2}{Collected student tasks}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.3}{Design decisions}{section.4.1}% 34
+\BOOKMARK [1][-]{section.4.2}{Context collection}{section*.14}% 35
+\BOOKMARK [0][-]{section*.15}{Discussion}{}% 36
+\BOOKMARK [1][-]{section.5.1}{Application design decisions}{section*.15}% 37
+\BOOKMARK [2][-]{subsection.5.1.1}{Task collection issues and improvements}{section.5.1}% 38
+\BOOKMARK [1][-]{section.5.2}{Context collection}{section*.15}% 39
+\BOOKMARK [1][-]{section.5.3}{Recommender and context usage}{section*.15}% 40
+\BOOKMARK [1][-]{section.5.4}{Generalization of tasks}{section*.15}% 41
+\BOOKMARK [0][-]{section*.16}{Conclusion}{}% 42
+\BOOKMARK [1][-]{section.6.1}{Research question 1}{section*.16}% 43
+\BOOKMARK [1][-]{section.6.2}{Research question 2}{section*.16}% 44
+\BOOKMARK [1][-]{section.6.3}{Research question 3}{section*.16}% 45
+\BOOKMARK [0][-]{section*.17}{Future work}{}% 46
+\BOOKMARK [0][-]{section*.19}{Bibliography}{}% 47
+\BOOKMARK [0][-]{section*.20}{Student tasks questionnaire}{}% 48
+\BOOKMARK [0][-]{section*.21}{Application GUI}{}% 49
+\BOOKMARK [0][-]{section*.22}{Recommender algorithm}{}% 50

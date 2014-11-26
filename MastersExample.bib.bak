@@ -264,7 +264,7 @@
   Title                    = {Android Design Principles},
   HowPublished             = {\url{http://developer.android.com/design/index.html}},
 
-  Owner                    = {lars.strand},
+  Owner                    = {Google},
   Timestamp                = {2014.11.18}
 }
 

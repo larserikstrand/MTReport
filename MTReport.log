@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  19 NOV 2014 00:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.21)  26 NOV 2014 12:35
 entering extended mode
 **MTReport.tex
 (D:\Skole\Master\Report\MTReport\MTReport.tex
@@ -614,6 +614,7 @@ Package: listings 2014/09/06 1.5e (Carsten Heinz)
 (D:\Skole\Master\Report\MTReport\TeXfiles/results.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/discussion.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.aux)
+(D:\Skole\Master\Report\MTReport\TeXfiles/futurework.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/appendix.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -768,7 +769,7 @@ LaTeX Font Info:    Try loading font information for U+euex on input line 17.
 (D:\Programfiler\MiKTeX\tex\latex\amsfonts\ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 )
-<higlogo.png, id=179, 301.125pt x 301.125pt>
+<higlogo.png, id=203, 301.125pt x 301.125pt>
 File: higlogo.png Graphic file (type png)
  <use higlogo.png>
 Package pdftex.def Info: higlogo.png used on input line 17.
@@ -799,8 +800,8 @@ l.2
 i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.9 \chapter
-            *{Preface} [1
+l.12 \chapter
+             *{Preface} [1
 
 ]) [2
 
@@ -824,137 +825,162 @@ Chapter 1.
 [1
 
 
-]) [2] (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.tex
+]) [2] [3] (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.tex
 Chapter 2.
-[3
+[4
 
 
 
-] [4]) [5] (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.tex
+] [5]) [6] [7] (D:\Skole\Master\Report\MTReport\TeXfiles/methodology.tex
 Chapter 3.
-[6
+[8
 
 
 
-] [7] <figures/ConceptualDiagram.png, id=387, 802.49812pt x 270.25969pt>
+] [9] <figures/ConceptualDiagram.png, id=438, 802.49812pt x 270.25969pt>
 File: figures/ConceptualDiagram.png Graphic file (type png)
 
 <use figures/ConceptualDiagram.png>
-Package pdftex.def Info: figures/ConceptualDiagram.png used on input line 55.
+Package pdftex.def Info: figures/ConceptualDiagram.png used on input line 58.
 (pdftex.def)             Requested size: 418.25368pt x 140.8575pt.
-
-<figures/MainScreenStarted.png, id=391, 650.43pt x 1156.32pt>
+ [10 <D:/Skole/Master/Report/MTReport/figures/ConceptualDiagram.png>]
+<figures/MainScreenStarted.png, id=447, 650.43pt x 1156.32pt>
 File: figures/MainScreenStarted.png Graphic file (type png)
 
 <use figures/MainScreenStarted.png>
-Package pdftex.def Info: figures/MainScreenStarted.png used on input line 72.
+Package pdftex.def Info: figures/MainScreenStarted.png used on input line 75.
 (pdftex.def)             Requested size: 146.39133pt x 260.249pt.
 
-Overfull \hbox (13.58565pt too wide) in paragraph at lines 69--77
+Overfull \hbox (13.58565pt too wide) in paragraph at lines 72--80
 []\T1/bch/m/n/10 In the over-all de-sign of the ap-pli-ca-tion, we de-cided to 
 stay with the An-droid de-sign principles[[]]
  []
 
-[8 <D:/Skole/Master/Report/MTReport/figures/ConceptualDiagram.png>]
-<figures/Workflow.png, id=398, 795.97375pt x 678.535pt>
+[11 <D:/Skole/Master/Report/MTReport/figures/MainScreenStarted.png>]
+<figures/Workflow.png, id=456, 795.97375pt x 678.535pt>
 File: figures/Workflow.png Graphic file (type png)
 
 <use figures/Workflow.png>
-Package pdftex.def Info: figures/Workflow.png used on input line 81.
+Package pdftex.def Info: figures/Workflow.png used on input line 84.
 (pdftex.def)             Requested size: 292.77629pt x 249.57346pt.
- <figures/NewTask.png, id=400, 1084.05pt x 1927.2pt>
+ <figures/NewTask.png, id=458, 1084.05pt x 1927.2pt>
 File: figures/NewTask.png Graphic file (type png)
 
 <use figures/NewTask.png>
-Package pdftex.def Info: figures/NewTask.png used on input line 90.
+Package pdftex.def Info: figures/NewTask.png used on input line 93.
 (pdftex.def)             Requested size: 146.39133pt x 260.249pt.
- [9 <D:/Skole/Master/Report/MTReport/figures/MainScreenStarted.png>] [10 <D:/Sk
-ole/Master/Report/MTReport/figures/Workflow.png>]
-[11 <D:/Skole/Master/Report/MTReport/figures/NewTask.png>]
-<figures/TaskRepresentation.png, id=419, 649.2255pt x 116.8365pt>
+ [12 <D:/Skole/Master/Report/MTReport/figures/Workflow.png>] [13 <D:/Skole/Mast
+er/Report/MTReport/figures/NewTask.png>]
+<figures/TaskRepresentation.png, id=469, 649.2255pt x 116.8365pt>
 File: figures/TaskRepresentation.png Graphic file (type png)
 
 <use figures/TaskRepresentation.png>
-Package pdftex.def Info: figures/TaskRepresentation.png used on input line 121.
+Package pdftex.def Info: figures/TaskRepresentation.png used on input line 113.
 
 (pdftex.def)             Requested size: 209.12683pt x 37.63446pt.
 
-<figures/DatabaseModel.png, id=422, 684.30656pt x 494.59781pt>
+<figures/Notification.png, id=473, 650.43pt x 43.96425pt>
+File: figures/Notification.png Graphic file (type png)
+
+<use figures/Notification.png>
+Package pdftex.def Info: figures/Notification.png used on input line 120.
+(pdftex.def)             Requested size: 209.12683pt x 14.13525pt.
+ [14 <D:/Skole/Master/Report/MTReport/figures/TaskRepresentation.png> <D:/Skole
+/Master/Report/MTReport/figures/Notification.png>] <figures/DatabaseModel.png, 
+id=480, 684.30656pt x 494.59781pt>
 File: figures/DatabaseModel.png Graphic file (type png)
 
 <use figures/DatabaseModel.png>
-Package pdftex.def Info: figures/DatabaseModel.png used on input line 132.
+Package pdftex.def Info: figures/DatabaseModel.png used on input line 133.
 (pdftex.def)             Requested size: 334.60422pt x 241.8494pt.
 
-<figures/DatabaseModel_external.png, id=423, 435.12563pt x 494.59781pt>
+<figures/DatabaseModel_external.png, id=481, 435.12563pt x 494.59781pt>
 File: figures/DatabaseModel_external.png Graphic file (type png)
 
 <use figures/DatabaseModel_external.png>
 Package pdftex.def Info: figures/DatabaseModel_external.png used on input line 
-138.
+139.
 (pdftex.def)             Requested size: 209.12683pt x 237.71367pt.
- [12 <D:/Skole/Master/Report/MTReport/figures/TaskRepresentation.png>] [13 <D:/
-Skole/Master/Report/MTReport/figures/DatabaseModel.png> <D:/Skole/Master/Report
-/MTReport/figures/DatabaseModel_external.png>]
-
-LaTeX Warning: Reference `probabilitymaplocation' on page 14 undefined on input
- line 197.
-
-[14] [15]) [16] (D:\Skole\Master\Report\MTReport\TeXfiles/results.tex
+ [15 <D:/Skole/Master/Report/MTReport/figures/DatabaseModel.png>] [16 <D:/Skole
+/Master/Report/MTReport/figures/DatabaseModel_external.png>] [17]) [18]
+(D:\Skole\Master\Report\MTReport\TeXfiles/results.tex
 Chapter 4.
-<figures/TodoListUsage.png, id=456, 602.25pt x 372.39125pt>
+<figures/TodoListUsage.png, id=515, 602.25pt x 372.39125pt>
 File: figures/TodoListUsage.png Graphic file (type png)
 
 <use figures/TodoListUsage.png>
 Package pdftex.def Info: figures/TodoListUsage.png used on input line 13.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
 
-<figures/TaskRegularity.png, id=458, 602.25pt x 372.39125pt>
+<figures/TaskRegularity.png, id=517, 602.25pt x 372.39125pt>
 File: figures/TaskRegularity.png Graphic file (type png)
 
 <use figures/TaskRegularity.png>
 Package pdftex.def Info: figures/TaskRegularity.png used on input line 23.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
 
-<figures/TaskFrequency.png, id=460, 602.25pt x 372.39125pt>
+<figures/TaskFrequency.png, id=519, 602.25pt x 372.39125pt>
 File: figures/TaskFrequency.png Graphic file (type png)
 
 <use figures/TaskFrequency.png>
 Package pdftex.def Info: figures/TaskFrequency.png used on input line 31.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
 
-<figures/TaskDistribution.png, id=463, 602.25pt x 372.39125pt>
+<figures/CollectedTasksFormat.PNG, id=522, 1112.35574pt x 216.20775pt>
+File: figures/CollectedTasksFormat.PNG Graphic file (type png)
+
+<use figures/CollectedTasksFormat.PNG>
+Package pdftex.def Info: figures/CollectedTasksFormat.PNG used on input line 67
+.
+(pdftex.def)             Requested size: 418.25368pt x 81.29544pt.
+ [19
+
+
+
+] [20 <D:/Skole/Master/Report/MTReport/figures/TodoListUsage.png> <D:/Skole/Mas
+ter/Report/MTReport/figures/TaskRegularity.png>] [21 <D:/Skole/Master/Report/MT
+Report/figures/TaskFrequency.png>]
+<figures/TaskDistribution.png, id=540, 602.25pt x 372.39125pt>
 File: figures/TaskDistribution.png Graphic file (type png)
 
 <use figures/TaskDistribution.png>
-Package pdftex.def Info: figures/TaskDistribution.png used on input line 67.
+Package pdftex.def Info: figures/TaskDistribution.png used on input line 75.
 (pdftex.def)             Requested size: 418.25368pt x 258.63217pt.
- [17
-
-
-
-] [18 <D:/Skole/Master/Report/MTReport/figures/TodoListUsage.png> <D:/Skole/Mas
-ter/Report/MTReport/figures/TaskRegularity.png>] [19 <D:/Skole/Master/Report/MT
-Report/figures/TaskFrequency.png>]
-[20 <D:/Skole/Master/Report/MTReport/figures/TaskDistribution.png>]
-<figures/TaskDistributionComparison.png, id=487, 412.54124pt x 183.084pt>
+ [22 <D:/Skole/Master/Report/MTReport/figures/CollectedTasksFormat.PNG> <D:/Sko
+le/Master/Report/MTReport/figures/TaskDistribution.png>]
+<figures/TaskDistributionComparison.png, id=549, 412.54124pt x 183.084pt>
 File: figures/TaskDistributionComparison.png Graphic file (type png)
 
 <use figures/TaskDistributionComparison.png>
 Package pdftex.def Info: figures/TaskDistributionComparison.png used on input l
-ine 111.
+ine 119.
 (pdftex.def)             Requested size: 418.25368pt x 185.62294pt.
- [21 <D:/Skole/Master/Report/MTReport/figures/TaskDistributionComparison.png>])
- [22]
+
+<figures/CollectedContextsFormat.PNG, id=552, 567.92175pt x 190.311pt>
+File: figures/CollectedContextsFormat.PNG Graphic file (type png)
+
+<use figures/CollectedContextsFormat.PNG>
+Package pdftex.def Info: figures/CollectedContextsFormat.PNG used on input line
+ 138.
+(pdftex.def)             Requested size: 418.25368pt x 140.16002pt.
+ [23] [24 <D:/Skole/Master/Report/MTReport/figures/TaskDistributionComparison.p
+ng> <D:/Skole/Master/Report/MTReport/figures/CollectedContextsFormat.PNG>]) [25
+]
 (D:\Skole\Master\Report\MTReport\TeXfiles/discussion.tex
 Chapter 5.
-) [23
+[26
 
 
 
-] (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.tex
+] [27] [28]) [29] (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.tex
 Chapter 6.
-) [24
+) [30
+
+
+
+] (D:\Skole\Master\Report\MTReport\TeXfiles/futurework.tex
+Chapter 7.
+) [31
 
 
 
@@ -963,20 +989,20 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 5.
 
 (D:\Programfiler\MiKTeX\tex\latex\base\t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [25
+) [32
 
 
-]) [26]
+]) [33]
 (D:\Skole\Master\Report\MTReport\TeXfiles/appendix.tex
 Appendix A.
-<appendix/StudentTasks1.PNG, id=524, 381.8265pt x 478.78876pt>
+<appendix/StudentTasks1.PNG, id=612, 381.8265pt x 478.78876pt>
 File: appendix/StudentTasks1.PNG Graphic file (type png)
 
 <use appendix/StudentTasks1.PNG>
 Package pdftex.def Info: appendix/StudentTasks1.PNG used on input line 5.
 (pdftex.def)             Requested size: 334.60422pt x 419.58203pt.
 
-<appendix/StudentTasks2.PNG, id=525, 380.01974pt x 546.843pt>
+<appendix/StudentTasks2.PNG, id=613, 380.01974pt x 546.843pt>
 File: appendix/StudentTasks2.PNG Graphic file (type png)
 
 <use appendix/StudentTasks2.PNG>
@@ -986,63 +1012,43 @@ Package pdftex.def Info: appendix/StudentTasks2.PNG used on input line 11.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27
+[34
 
 
- <D:/Skole/Master/Report/MTReport/appendix/StudentTasks1.PNG>] [28 <D:/Skole/Ma
+ <D:/Skole/Master/Report/MTReport/appendix/StudentTasks1.PNG>] [35 <D:/Skole/Ma
 ster/Report/MTReport/appendix/StudentTasks2.PNG>]
 Appendix B.
-<appendix/MainScreenToday.PNG, id=538, 1084.05pt x 1927.2pt>
+<appendix/MainScreenToday.PNG, id=626, 1084.05pt x 1927.2pt>
 File: appendix/MainScreenToday.PNG Graphic file (type png)
 
 <use appendix/MainScreenToday.PNG>
 Package pdftex.def Info: appendix/MainScreenToday.PNG used on input line 21.
 (pdftex.def)             Requested size: 104.56342pt x 185.87953pt.
 
-<appendix/MainScreenWeek.PNG, id=539, 1084.05pt x 1927.2pt>
+<appendix/MainScreenWeek.PNG, id=627, 1084.05pt x 1927.2pt>
 File: appendix/MainScreenWeek.PNG Graphic file (type png)
 
 <use appendix/MainScreenWeek.PNG>
 Package pdftex.def Info: appendix/MainScreenWeek.PNG used on input line 27.
 (pdftex.def)             Requested size: 104.56342pt x 185.87953pt.
- [29
+ [36
 
  <D:/Skole/Master/Report/MTReport/appendix/MainScreenToday.PNG> <D:/Skole/Maste
 r/Report/MTReport/appendix/MainScreenWeek.PNG>]
 Appendix C.
-<appendix/CollectedTasksFormat.PNG, id=545, 1112.35574pt x 216.20775pt>
-File: appendix/CollectedTasksFormat.PNG Graphic file (type png)
-
-<use appendix/CollectedTasksFormat.PNG>
-Package pdftex.def Info: appendix/CollectedTasksFormat.PNG used on input line 3
-7.
-(pdftex.def)             Requested size: 418.25368pt x 81.29544pt.
-
-<appendix/CollectedContextsFormat.PNG, id=546, 567.92175pt x 190.311pt>
-File: appendix/CollectedContextsFormat.PNG Graphic file (type png)
-
-<use appendix/CollectedContextsFormat.PNG>
-Package pdftex.def Info: appendix/CollectedContextsFormat.PNG used on input lin
-e 43.
-(pdftex.def)             Requested size: 418.25368pt x 140.16002pt.
- [30
-
- <D:/Skole/Master/Report/MTReport/appendix/CollectedTasksFormat.PNG> <D:/Skole/
-Master/Report/MTReport/appendix/CollectedContextsFormat.PNG>]
-Appendix D.
 (D:\Programfiler\MiKTeX\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 58.
+nput line 44.
 
-(D:\Skole\Master\Report\MTReport\appendix/Recommender.java [31
+(D:\Skole\Master\Report\MTReport\appendix/Recommender.java [37
 
-] [32] [33]
-[34] [35] [36])) [37] 
+] [38] [39]
+[40] [41] [42])) [43] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
 (D:\Skole\Master\Report\MTReport\MTReport.aux
 (D:\Skole\Master\Report\MTReport\TeXfiles/introduction.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/relatedwork.aux)
@@ -1050,35 +1056,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
 (D:\Skole\Master\Report\MTReport\TeXfiles/results.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/discussion.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/conclusion.aux)
+(D:\Skole\Master\Report\MTReport\TeXfiles/futurework.aux)
 (D:\Skole\Master\Report\MTReport\TeXfiles/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
 Package rerunfilecheck Info: File `MTReport.out' has not changed.
-(rerunfilecheck)             Checksum: 752BC824D4A21BFD5E01779372E1593B;2906.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+(rerunfilecheck)             Checksum: 5EEE1312450944E17B677F06AA0B2BA1;3349.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
  ) 
 Here is how much of TeX's memory you used:
- 9166 strings out of 493921
- 133302 string characters out of 3149268
- 410733 words of memory out of 3000000
- 11632 multiletter control sequences out of 15000+200000
+ 9204 strings out of 493921
+ 134153 string characters out of 3149268
+ 411868 words of memory out of 3000000
+ 11650 multiletter control sequences out of 15000+200000
  58402 words of font info for 78 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,11n,45p,1138b,1891s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,45p,1617b,1891s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\lars.strand\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi525\ectt0800.pk> <C:\Users\lars.strand\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\ectt1000.pk>{D:/Programfiler/MiKTeX/fonts/enc/dvips/fontn
 ame/8r.enc}<D:/Programfiler/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><D:/
 Programfiler/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><D:/Programfiler/Mi
 KTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><D:/Programfiler/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb>
-Output written on MTReport.pdf (46 pages, 1316841 bytes).
+e1/public/amsfonts/cm/cmsy10.pfb><D:/Programfiler/MiKTeX/fonts/type1/public/ams
+fonts/euler/euex10.pfb><D:/Programfiler/MiKTeX/fonts/type1/public/amsfonts/eule
+r/eufm10.pfb><D:/Programfiler/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pf
+b><D:/Programfiler/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><D:/Prog
+ramfiler/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb>
+Output written on MTReport.pdf (52 pages, 1374797 bytes).
 PDF statistics:
- 1279 PDF objects out of 1440 (max. 8388607)
- 600 named destinations out of 1000 (max. 500000)
- 448 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1377 PDF objects out of 1440 (max. 8388607)
+ 612 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

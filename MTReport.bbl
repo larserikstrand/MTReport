@@ -12,6 +12,14 @@ Trello.
 Todoist.
 \newblock \url{https://en.todoist.com/}.
 
+\bibitem{verbert2012context}
+Verbert, K., Manouselis, N., Ochoa, X., Wolpers, M., Drachsler, H., Bosnic, I.,
+  \& Duval, E.
+\newblock 2012.
+\newblock Context-aware recommender systems for learning: a survey and future
+  challenges.
+\newblock {\em Learning Technologies, IEEE Transactions on}, 5(4), 318--335.
+
 \bibitem{liu2011survey}
 Liu, W., Li, X., \& Huang, D.
 \newblock 2011.
